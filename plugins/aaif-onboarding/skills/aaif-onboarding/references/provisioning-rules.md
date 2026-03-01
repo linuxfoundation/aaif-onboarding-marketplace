@@ -27,6 +27,8 @@ All working groups are open to any tier member who requests participation:
 | Identity & Trust | wg-identity-trust@lists.aaif.io | Gold+ |
 | Observability | wg-observability@lists.aaif.io | Gold+ |
 | Workflows | wg-workflows@lists.aaif.io | Gold+ |
+| Governance, Risk & Regulatory | wg-governance-risk-regulatory@lists.aaif.io | Gold+ |
+| Security & Privacy | wg-security-privacy@lists.aaif.io | Gold+ |
 
 ## Anomaly Detection Rules
 

@@ -27,6 +27,7 @@ Set these environment variables (or the plugin will use defaults):
 | `/offboard [org] [email] [reason]` | Remove a contact's access across all systems |
 | `/health-check` | Foundation-wide health scan (anomalies, list gaps, silo sync, renewals, churn) |
 | `/lookup [org]` | Comprehensive member profile with compliance and sync status |
+| `/silver-onboard` | Guided 8-phase Silver Member onboarding (identity, LFX setup, WGs, events, community) |
 
 ## Skill
 
@@ -37,7 +38,7 @@ The **aaif-onboarding** skill activates automatically when you ask about member 
 | Type | Count | Purpose |
 |------|-------|---------|
 | Skills | 1 | AAIF onboarding domain knowledge |
-| Commands | 4 | /onboard, /offboard, /health-check, /lookup |
+| Commands | 5 | /onboard, /offboard, /health-check, /lookup, /silver-onboard |
 | MCP Servers | 1 | AAIF MCP Server (49 tools via HTTP) |
 
 ## Tools Available (via MCP)

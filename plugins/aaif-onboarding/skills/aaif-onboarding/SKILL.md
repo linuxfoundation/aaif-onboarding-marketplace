@@ -171,6 +171,17 @@ There are 49 tools across 12 domains (48 auto-registered via dynamic registry + 
 2. `run_offboarding_checklist` (dry_run) → preview removals
 3. Confirm with user → execute with `dry_run=False`
 
+### Silver Member Onboarding (Guided 8-Phase Flow)
+Use `/silver-onboard` for the full conversational flow. Phases:
+1. **Welcome & Identity** — `validate_membership_tier` → `list_contacts` → `add_contact`
+2. **LFX Account Setup** — Direct to myprofile.lfx.linuxfoundation.org
+3. **Working Group Selection** — `list_available_working_groups` (7 WGs) → `check_wg_eligibility` → `enroll_in_working_group`
+4. **Invite Colleagues** — `add_contact` → `provision_mailing_lists` → `enroll_in_working_group`
+5. **Events** — Present MCP Dev Summit, AGNTCon with discount codes → `provision_calendar_invites`
+6. **Newsletter & Lists** — `provision_mailing_lists` for Silver tier (members-all)
+7. **Community Access** — Discord invite, GitHub username, `get_upcoming_meetings`
+8. **Summary & Verification** — `get_onboarding_status` → `check_mailing_list_membership` → `reconcile_silos`
+
 ## Important Notes
 
 - Sanctions screening is handled by the Descartes integration in Salesforce at membership intake — the MCP server reads that status, it does not run its own screening
@@ -178,6 +189,6 @@ There are 49 tools across 12 domains (48 auto-registered via dynamic registry + 
 - The server auto-falls back to mock data when backend credentials are not configured
 - Mock members include: Hitachi (Gold), Bloomberg (Gold), Natoma (Silver), iProov (Silver), OpenAI (Platinum)
 - 7 connectors: Salesforce, Groups.io, Google Calendar, Discord, GitHub, LFX Platform, HubSpot
-- Working groups: Agentic Commerce, Accuracy & Reliability, Identity & Trust, Observability, Workflows
+- Working groups (7): Agentic Commerce, Accuracy & Reliability, Identity & Trust, Observability, Workflows, Governance Risk & Regulatory, Security & Privacy
 
 For detailed provisioning rules and working group definitions, see `references/provisioning-rules.md`.
