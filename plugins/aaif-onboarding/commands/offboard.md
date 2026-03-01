@@ -11,10 +11,14 @@ Follow these steps:
 
 1. **Check current access** — Call `check_mailing_list_membership` for the contact email. Show what they're currently subscribed to.
 
-2. **Preview offboarding** — Call `run_offboarding_checklist` with `dry_run=True`. Show the automated actions (list removals) and manual follow-ups (Discord, GitHub, calendar, CRM).
+2. **Check WG enrollments** — Call `list_available_working_groups` for the contact to see which working groups they're enrolled in.
 
-3. **Confirm with user** — Ask the user to confirm they want to proceed. Only after explicit confirmation, execute with `dry_run=False`.
+3. **Check upcoming meetings** — Call `get_upcoming_meetings` to show any meetings the contact is scheduled for.
 
-4. **Verify** — Call `check_mailing_list_membership` again to confirm the contact has been removed from all lists.
+4. **Preview offboarding** — Call `run_offboarding_checklist` with `dry_run=True`. Show the automated actions (list removals, WG removals, calendar removals) and manual follow-ups (Discord, GitHub, CRM).
+
+5. **Confirm with user** — Ask the user to confirm they want to proceed. Only after explicit confirmation, execute with `dry_run=False`.
+
+6. **Verify** — Call `check_mailing_list_membership` again to confirm the contact has been removed from all lists.
 
 Present a summary of what was done and what manual steps remain.
