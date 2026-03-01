@@ -1,0 +1,11 @@
+{
+  "name": "aaif-onboarding",
+  "version": "0.1.0",
+  "description": "AAIF Member Onboarding — 16 tools for tier validation, compliance screening, mailing list provisioning, and D1-D5 checklist orchestration for the AI & Agentic Infrastructure Foundation.",
+  "author": {
+    "name": "Linux Foundation"
+  },
+  "keywords": ["aaif", "onboarding", "membership", "linux-foundation", "mcp"],
+  "license": "Apache-2.0",
+  "repository": "https://github.com/LF-Engineering/aaif-mcp-server"
+}

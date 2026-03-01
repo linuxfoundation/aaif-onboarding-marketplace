@@ -1,0 +1,24 @@
+{
+  "name": "aaif-onboarding-marketplace",
+  "owner": {
+    "name": "Linux Foundation",
+    "email": "mdixit@linuxfoundation.org"
+  },
+  "metadata": {
+    "description": "AAIF Member Onboarding tools for the AI & Agentic Infrastructure Foundation",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "aaif-onboarding",
+      "source": "./plugins/aaif-onboarding",
+      "description": "16 MCP tools for AAIF member onboarding — tier validation, compliance screening, mailing list provisioning, and D1-D5 checklist orchestration.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Linux Foundation"
+      },
+      "keywords": ["aaif", "onboarding", "membership", "linux-foundation", "mcp"],
+      "category": "operations"
+    }
+  ]
+}
