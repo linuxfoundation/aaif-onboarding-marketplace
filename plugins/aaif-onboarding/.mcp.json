@@ -2,7 +2,7 @@
   "mcpServers": {
     "aaif-onboarding": {
       "type": "http",
-      "url": "${AAIF_MCP_URL:-https://aaif-mcp-server-production.up.railway.app/mcp}"
+      "url": "${AAIF_MCP_URL:-https://aaif-mcp-server.lfx.dev/mcp}"
     }
   }
 }

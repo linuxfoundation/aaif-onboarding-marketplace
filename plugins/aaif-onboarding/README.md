@@ -1,6 +1,8 @@
-# AAIF Onboarding Plugin
+# AAIF PMO Agent — Cowork Plugin
 
-Claude plugin for managing AI & Agentic Infrastructure Foundation member onboarding. Connects to the AAIF MCP Server (49 tools across 12 domains) and provides domain knowledge, slash commands, and guided workflows.
+Cowork plugin for executives and leadership to interact with the AAIF PMO Agent. Connects to the AAIF MCP Server (49 tools across 12 domains) and provides domain knowledge, slash commands, and guided workflows. Designed for Claude Desktop's Cowork tab — just drag and drop to install.
+
+> **Who is this for?** Executives and leadership who want conversational AI access to member onboarding status, compliance reports, renewal dashboards, and ad-hoc questions. PMO staff doing day-to-day operations use LFX PCC instead.
 
 ## Setup
 
@@ -14,7 +16,7 @@ Set these environment variables (or the plugin will use defaults):
 
 | Variable | Description | Default |
 |---|---|---|
-| `AAIF_MCP_URL` | MCP server URL | `https://aaif-mcp-server-production.up.railway.app/mcp` |
+| `AAIF_MCP_URL` | MCP server URL | `https://aaif-mcp-server.lfx.dev/mcp` |
 | `AAIF_MCP_API_KEY` | API key for authentication | (none) |
 
 **For local development** (running the MCP server on your machine), update `.mcp.json` to use stdio transport instead of HTTP.

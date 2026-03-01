@@ -1,6 +1,6 @@
-# AAIF Onboarding Marketplace
+# AAIF PMO Agent — Plugin Marketplace
 
-Private Claude plugin marketplace for the AI & Agentic Infrastructure Foundation (AAIF) member onboarding tools.
+Private Claude plugin marketplace for the AAIF PMO Agent. The Cowork plugin gives executives and leadership conversational AI access to all 49 onboarding tools. PMO staff access the same tools through LFX PCC.
 
 ## Quick Install
 
@@ -9,7 +9,7 @@ Private Claude plugin marketplace for the AI & Agentic Infrastructure Foundation
 /plugin install aaif-onboarding@aaif-onboarding-marketplace
 ```
 
-That's it. The plugin connects to the AAIF MCP Server on Railway and gives you 16 tools across 4 domains:
+That's it. The plugin connects to the AAIF MCP Server and gives you 49 tools across 12 domains:
 
 | Domain | Tools |
 |--------|-------|
@@ -29,9 +29,8 @@ That's it. The plugin connects to the AAIF MCP Server on Railway and gives you 1
 
 ## Server
 
-The MCP server is hosted on Railway:
-- **URL**: `https://aaif-mcp-server-production.up.railway.app/mcp`
-- Auto-sleeps on inactivity (first request may take 5-10s)
+The MCP server is hosted on LFX infrastructure:
+- **URL**: `https://aaif-mcp-server.lfx.dev/mcp`
 
 ## Questions
 

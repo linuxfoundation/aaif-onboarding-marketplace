@@ -13,13 +13,22 @@ description: >
 version: 0.2.0
 ---
 
-# AAIF Member Onboarding
+# AAIF PMO Agent
 
 Domain knowledge for the AI & Agentic Infrastructure Foundation member onboarding lifecycle.
 
 ## Foundation Context
 
 AAIF is a Linux Foundation project hosting MCP (Anthropic), Goose (Block), and AGENTS.md (OpenAI). Members are companies that pay annual dues and receive tiered benefits.
+
+## Client Architecture
+
+The AAIF PMO Agent runs on a single MCP server that powers multiple clients:
+
+- **LFX PCC** — PMO staff (Stephano, Christina) use PCC for day-to-day onboarding operations, provisioning, and compliance workflows
+- **Cowork Plugin** — Executives and leadership use the Cowork tab in Claude Desktop for oversight, status checks, dashboards, and ad-hoc questions
+- **Intercom Fin** — Members self-serve onboarding questions, status checks, and FAQ via the Intercom chatbot
+- **Goose** (optional) — Open-source MCP client for developers who prefer a local agent
 
 ## Membership Tiers
 
