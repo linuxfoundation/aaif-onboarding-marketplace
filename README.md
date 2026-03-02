@@ -5,7 +5,7 @@ Private Claude plugin marketplace for the AAIF PMO Agent. The Cowork plugin give
 ## Quick Install
 
 ```bash
-/plugin marketplace add LF-Engineering/aaif-onboarding-marketplace
+/plugin marketplace add linuxfoundation/aaif-onboarding-marketplace
 /plugin install aaif-onboarding@aaif-onboarding-marketplace
 ```
 
