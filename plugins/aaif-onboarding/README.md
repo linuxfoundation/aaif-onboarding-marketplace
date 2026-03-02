@@ -16,7 +16,7 @@ Set these environment variables (or the plugin will use defaults):
 
 | Variable | Description | Default |
 |---|---|---|
-| `AAIF_MCP_URL` | MCP server URL | `https://aaif-mcp-server.lfx.dev/mcp` |
+| `AAIF_MCP_URL` | MCP server URL | `https://aaif-mcp-server-727723088481.us-central1.run.app/mcp` |
 | `AAIF_MCP_API_KEY` | API key for authentication | (none) |
 
 **For local development** (running the MCP server on your machine), update `.mcp.json` to use stdio transport instead of HTTP.

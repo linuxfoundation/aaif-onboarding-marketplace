@@ -30,7 +30,7 @@ That's it. The plugin connects to the AAIF MCP Server and gives you 49 tools acr
 ## Server
 
 The MCP server is hosted on LFX infrastructure:
-- **URL**: `https://aaif-mcp-server.lfx.dev/mcp`
+- **URL**: `https://aaif-mcp-server-727723088481.us-central1.run.app/mcp`
 
 ## Questions
 

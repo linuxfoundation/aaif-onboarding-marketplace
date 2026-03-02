@@ -2,7 +2,7 @@
   "mcpServers": {
     "aaif-onboarding": {
       "type": "http",
-      "url": "${AAIF_MCP_URL:-https://aaif-mcp-server.lfx.dev/mcp}"
+      "url": "${AAIF_MCP_URL:-https://aaif-mcp-server-727723088481.us-central1.run.app/mcp}"
     }
   }
 }
